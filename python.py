@@ -27,4 +27,6 @@ def send_mail(workflow_name, repo_name, workflow_run_ID):
         
     except Exception as e:
         print(f'error: {e}')
+        
+
     
