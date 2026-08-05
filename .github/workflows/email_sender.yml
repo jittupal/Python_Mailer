@@ -4,6 +4,7 @@ on:
     push:
         branches:
             - master
+            - test
 
 jobs:
     send_email:
